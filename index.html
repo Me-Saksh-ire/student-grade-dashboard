@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="header">
+            <h1>Students Grade Dashboard</h1>
+            <span id="span">Academic Year 2024-2025</span>
+        </div>
+    </header>
+    <div class="page">
+        <main>
+            <div id="studDetails">
+                <h2>Add New Student Grades</h2>
+                <form id="form">
+                    Student ID <input type="text" id="num">
+
+                    Student Name <input type="text" id="name"><br>
+
+                    <canvas id="createLine" width="1030px" height="0" style="border: 1px solid rgb(170, 168, 168); margin-left: 10px; margin: right 10px;"></canvas>
+
+                    <p>Subjects Marks </p>
+                    English  <input type="number" max="100" id="eng">
+                    Hindi  <input type="number" id="hind">
+                    Marathi  <input type="number" id="mar">
+                    Science   <input type="number" id="sci">
+                    Social Studies  <input type="number" id="socs">
+                    Maths  <input type="number" id="math"><br><br>
+
+                    <button type="button" id="button" onclick="addStudent()">Submit</button>
+                </div>
+
+                </form>
+            </div>
+            
+            <div id="tableDisplay">
+                <h2>Students Result</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Student ID</th>
+                            <th>Student Name</th>
+                            <th>English</th>
+                            <th>Hindi</th>
+                            <th>Marathi</th>
+                            <th>Science</th>
+                            <th>Social Studies</th>
+                            <th>Maths</th>
+                            <th>Total</th>
+                            <th>Percentage</th>
+                            <th>Grade</th>
+                            <th>Actions</th>
+                        
+                        </tr>
+                    </thead>
+
+                    <tbody id="studentDetails">
+                        
+                    </tbody>
+                </table>
+                
+                <div id="marksDisplay">
+                <div id="classAvrg">
+                    <h2>Class Average</h2>
+                    <span id="classAverage"></span>
+                </div>
+            </div>
+            </div>
+
+            
+        </main>
+    
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

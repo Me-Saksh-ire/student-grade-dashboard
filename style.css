@@ -1,0 +1,103 @@
+
+
+body{
+    font-family: "Calibri", serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(233, 233, 239);
+}
+
+h1{
+    padding: 1%;
+}
+
+#header{
+    margin: 0;
+    background-color: #6C3BFF;
+    color: azure;
+    display: flex;
+    gap: 35rem;
+    
+}
+
+#span{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    font-size: 20px;
+    background-color: #9673FF;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+#studentDetails td, #studentDetails th {
+    padding: 20px;
+}
+
+tbody{
+    margin: auto;
+}
+
+form, input{
+    padding: 5px;
+    border-radius: 8px;
+    border-color: rgb(168, 168, 168);
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+#button{
+    padding: 10px;
+    width: 6rem;
+    color: azure;
+    background-image: linear-gradient(to right, greenyellow, rgb(164, 213, 193));
+    border: none;
+    font-size: 18px;
+}
+
+ table, tbody, th, tr{
+    border-bottom: 1px solid  rgb(170, 168, 168);
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+#num{
+    margin-right: 150px;
+    width: 15%;
+}
+
+#name{
+    width: 30%;
+}
+
+#eng, #hind, #mar, #sci, #socs, #math{
+    width: 5%;
+    margin-right: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+h2{
+    margin-top: 0;
+}
+
+.page, #tableDisplay{
+    padding: 35px;
+    width: 88%;
+    justify-items: center;
+    background-color: rgb(247, 247, 255);
+    margin: 3% 3% 0 3%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#classAvrg{
+    background-image: linear-gradient(to right, #6C3BFF, #9673FF);
+    padding: 10px;
+    margin-top: 5rem;
+}
+
